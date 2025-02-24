@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-regular {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-medium {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inter-semi-bold {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1116px;
+    margin: 0 auto;
+}
+
+.intro {
+    background-image: url(img/intro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 122px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    margin-bottom: 28px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-link {
+    color: #848484;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #626262;
+}
+
+.nav-link_dark {
+    color: #000;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rating-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 11px 6px;
+    background-color: #fff;
+    border-radius: 21px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main-header-main {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-header-contacts {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* .socials {
+    display: fle;
+} */
+
+.social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.tg {
+    background-color: #559FD6;
+}
+
+.wp {
+    background-color: #65CD74;
+}
+
+.vb {
+    background-color: #665DA3;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.callback-btn {
+    display: block;
+    padding: 0;
+
+    color: #0F6FFF;
+    font-size: 10px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 4px;
+}
+
+.intro-main {
+    background-image: url(img/car.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.intro-main-info {
+    max-width: 65%;
+}
+
+.intro-heading {
+    font-size: 48px;
+    line-height: 109.5%;
+    letter-spacing: -2%;
+}
+
+.accent {
+    background-color: #FFEA2E;
+}
+
+.intro-main-text {
+    max-width: 50%;
+    font-size: 24px;
+    color: #454545;
+}
