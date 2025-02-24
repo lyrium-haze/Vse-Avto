@@ -42,6 +42,7 @@ ul li {
 
 body {
     margin: 0;
+    --accent-color: #FFEA2E;
 }
 
 .container {
@@ -57,11 +58,18 @@ body {
 }
 
 .top-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 0;
     margin-bottom: 28px;
+}
+
+.is-pinned {
+    background-color: #F4F4F4;
 }
 
 .nav-ul {
@@ -166,14 +174,12 @@ body {
 }
 
 .intro-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-image: url(img/car.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: contain;
-}
-
-.intro-main-info {
-    max-width: 65%;
 }
 
 .intro-heading {
@@ -183,11 +189,109 @@ body {
 }
 
 .accent {
-    background-color: #FFEA2E;
+    background-color: var(--accent-color);
 }
 
 .intro-main-text {
-    max-width: 50%;
+    max-width: 55%;
     font-size: 24px;
     color: #454545;
+}
+
+.features-list {
+    max-width: 63%;
+}
+
+.features-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.features-icon {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;;
+    border-radius: 20px;
+    background-color: var(--accent-color);
+}
+
+.features-heading {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.features-text {
+    font-size: 14px;
+    color: #7C7C7C;
+    line-height: 140%;
+}
+
+.request {
+    max-width: 30%;
+    padding: 47px 32px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    border-top: 12px solid #FFDD2C;
+    border-bottom: 12px solid #FFDD2C;
+}
+
+.request-heading {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.request-text {
+    color: #7C7C7C;
+    line-height: 140%;
+}
+
+.request-form {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.input-wrapper {
+    padding: 22px;
+    background-color: #F4F4F4;
+    border-radius: 24px;
+}
+.request-form-input {
+    border: none;
+    outline: none;
+    background-color: #F4F4F4;
+}
+
+.request-form-input::placeholder {
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.name-wrapper::before {
+    vertical-align: middle;
+    content: url(img/user.svg);
+}
+
+.phone-wrapper::before {
+    vertical-align: middle;
+    content: url(img/phone.svg);
+}
+
+.btn {
+    padding: 23px 62px;
+    border: none;
+    border-radius: 24px;
+    background-color: #FFDD2C;
 }
