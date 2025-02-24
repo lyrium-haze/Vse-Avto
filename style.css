@@ -21,6 +21,13 @@
     font-weight: 600;
     font-style: normal;
 }
+
+.inter-bold {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
   
 
 * {
@@ -70,6 +77,44 @@ body {
 
 .is-pinned {
     background-color: #F4F4F4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 28px;
+    background-color: white;
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .nav-ul {
@@ -234,7 +279,7 @@ body {
 }
 
 .request {
-    max-width: 30%;
+    max-width: 35%;
     padding: 47px 32px;
     text-align: center;
     border-radius: 20px;
@@ -257,7 +302,7 @@ body {
 .request-form {
     display: flex;
     flex-direction: column;
-    gap: 34px;
+    gap: 12px;
 }
 
 .input-wrapper {
@@ -293,5 +338,17 @@ body {
     padding: 23px 62px;
     border: none;
     border-radius: 24px;
+    font-size: 14px;
     background-color: #FFDD2C;
+}
+
+.request-remark {
+    text-align: start;
+    margin-top: 24px;
+    font-size: 10px;
+    color: #6F6F6F;
+}
+
+.important {
+    color: #0C0C0C;
 }
