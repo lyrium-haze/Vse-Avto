@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vse avto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="inter-regular">
+    <section class="intro">
+      <div class="container">
+        <div class="intro-inner">
+          <header class="top-bar">
+            <nav class="menu" id="menu1">
+              <ul class="nav-ul inter-medium">
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <a href="" class="dropdown-button nav-link">Преимущества</a>
+                    <div class="dropdown-content">
+                      <a href="#">Преимущества</a>
+                      <a href="#">Этапы выкупа</a>
+                      <a href="#">Гарантии</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Гарантии</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Этапы выкупа</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Отзыв</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="rating">
+              <div class="rating-item">
+                <img src="img/2gis.svg" alt="2gis" />
+                <span class="rate">4.5</span>
+                <span class="stars">
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                </span>
+              </div>
+              <div class="rating-item">
+                <img src="img/yandex-maps.svg" alt="yandex maps" />
+                <span class="rate">4.5</span>
+                <span class="stars">
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                </span>
+              </div>
+              <div class="rating-item">
+                <img src="img/google-maps.svg" alt="google maps" />
+                <span class="rate">4.5</span>
+                <span class="stars">
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                  <img src="img/Star.png" alt="star" />
+                </span>
+              </div>
+            </div>
+          </header>
+          <header class="main-header">
+            <div class="main-header-main">
+              <a href="#"><img class="logo" src="img/logo.svg" alt="logo" /></a>
+              <nav class="menu" id="menu2">
+                <ul class="nav-ul inter-medium">
+                  <li class="nav-item">
+                    <a href="" class="nav-link nav-link_dark">Преимущества</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link nav-link_dark">Гарантии</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link nav-link_dark">Этапы выкупа</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link nav-link_dark">Отзыв</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="menu-sheet"></div>
+            <div class="main-header-contacts">
+              <div class="socials">
+                <a class="social tg" href=""
+                  ><img class="social-img" src="img/tg.svg" alt="telegram"
+                /></a>
+                <a class="social wp" href=""
+                  ><img class="social-img" src="img/watsupp.svg" alt="watsupp"
+                /></a>
+                <a class="social vb" href=""
+                  ><img class="social-img" src="img/viber.svg" alt="viber"
+                /></a>
+              </div>
+              <div class="burger-section-wrapper">
+                <div class="callback-section">
+                  <span class="number inter-medium">8(495) 788-23-90</span>
+                  <button class="callback-btn inter-medium">
+                    Перезвонить мне
+                  </button>
+                </div>
+                <button
+                  class="menu-button"
+                  id="menuButton"
+                  onclick="toggleMenu()"
+                >
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </button>
+              </div>
+            </div>
+          </header>
+          <div class="intro-main">
+            <div class="intro-main-wrapper">
+              <div class="intro-main-info">
+                <h1 class="intro-heading inter-semi-bold">
+                  СРОЧНЫЙ ВЫКУП <br />
+                  АВТОМОБИЛЕЙ <span class="accent">ЗА 98%</span> <br />
+                  ОТ РЫНОЧНОЙ СТОИМОСТИ
+                </h1>
+                <p class="intro-main-text">
+                  Получите деньги удобным способом уже <b>через 30 минут</b>
+                </p>
+              </div>
+              <ul class="features-list">
+                <li class="features-item">
+                  <div class="features-icon">
+                    <img src="img/save-pay.svg" alt="save pay icon" />
+                  </div>
+                  <div class="features-info">
+                    <h6 class="features-heading inter-semi-bold">
+                      Безопасная оплата
+                    </h6>
+                    <p class="features-text">
+                      Наличными в любом отделении банка или переводом на
+                      банковскую карту
+                    </p>
+                  </div>
+                </li>
+                <li class="features-item">
+                  <div class="features-icon">
+                    <img src="img/best-price.svg" alt="best price icon" />
+                  </div>
+                  <div class="features-info">
+                    <h6 class="features-heading inter-semi-bold">
+                      Гарантируем лучшую цену
+                    </h6>
+                    <p class="features-text">
+                      92% клиентов планировали продать за ту же цену которую
+                      предложили мы
+                    </p>
+                  </div>
+                </li>
+                <li class="features-item">
+                  <div class="features-icon">
+                    <img src="img/secure.svg" alt="secure icon" />
+                  </div>
+                  <div class="features-info">
+                    <h6 class="features-heading inter-semi-bold">
+                      100% юридическая прозрачность
+                    </h6>
+                    <p class="features-text">
+                      Договор купли-продажи, учет в ГИБДД, копия ПТС с отметкой
+                      о новом владельце
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="request">
+              <h6 class="request-heading inter-medium">
+                Заявка на оценку авто по телефону
+              </h6>
+              <p class="request-text">
+                Оставьте заявку на бесплатную оценку и консультацию
+              </p>
+              <form class="request-form">
+                <div class="input-wrapper name-wrapper">
+                  <input
+                    class="request-form-input name"
+                    type="text"
+                    placeholder="Ваше имя"
+                  />
+                </div>
+                <div class="input-wrapper phone-wrapper">
+                  <input
+                    class="request-form-input phone"
+                    type="text"
+                    placeholder="+7 (___) ___-__-__"
+                  />
+                </div>
+                <!-- text из-за js -->
+                <button class="btn inter-bold">ЗАЯВКА НА ОЦЕНКУ</button>
+              </form>
+              <p class="request-remark">
+                Нажимая на кнопку я соглашаюсь с
+                <span class="important"
+                  >политикой конфиденциальности и обработки персональных
+                  данных</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
